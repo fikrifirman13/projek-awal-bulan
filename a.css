@@ -1,0 +1,22 @@
+
+/* untuk umum */
+.main-biru{
+    background-color:none;
+}
+.main-biru h2 span{
+    color: #FFC300;
+
+}
+#main-kolaborasi img{
+    max-height: 50px;
+    max-width: 150px;
+}
+#main-kolaborasi a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.main-grey{
+    background-color: #f9f9f9;
+}
