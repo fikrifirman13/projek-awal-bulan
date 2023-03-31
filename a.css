@@ -2,6 +2,8 @@
 /* untuk umum */
 .main-biru{
     background-color:none;
+    padding-top: 6rem;
+    padding-bottom: 2px;
 }
 .main-biru h2 span{
     color: #FFC300;
@@ -19,4 +21,29 @@
 }
 .main-grey{
     background-color: #f9f9f9;
+}
+.main-grey2{
+    background-color: none;
+}
+
+.main-blog-info a {
+    padding-right: 15px;
+    color: #666;
+    text-decoration: none;  
+}
+.main-blog-info a:hover{
+    color: #FFC300;
+}
+#blog .main-blog-info span {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 6rem;
+
+}
+#blog a{
+    text-decoration: none;
+    color: #666;
+}
+#blog a:hover{
+    color: #FFC300;
 }

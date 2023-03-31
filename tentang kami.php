@@ -33,20 +33,20 @@
     <section class="jumbotron text-center">
         <td><img src="img/logo2.png" alt="logo" width="220" class="rounded-circle img-thumbnail" /></td>
         <h1 class="display-4">FIKRI PRODUCT</h1>
-        <p class="lead"></p>
+        <p class="lead mb-4"></p>
     </section>
     <section class="main-biru">
         <div class="container py-5">
-            <div class="row" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="600">
+            <div class="row">
                 <div class="col-lg-6 text-center align-self-center">
-                    <div class="">
+                    <div data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="600">
                         <h2>TIM <span>IT</span>, MITRA <span>INDUSTRI</span> MM2100 </h2>
                         <p>
                             TENTANG KAMI
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="600">
                     <div class="px-4 py-5">
                         <img src="img/header.png" class="px-4 py-4 w-100" />
                     </div>
@@ -57,7 +57,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#f9f9f9" fill-opacity="1" d="M0,224L17.1,234.7C34.3,245,69,267,103,240C137.1,213,171,139,206,133.3C240,128,274,192,309,234.7C342.9,277,377,299,411,288C445.7,277,480,235,514,229.3C548.6,224,583,256,617,277.3C651.4,299,686,309,720,266.7C754.3,224,789,128,823,112C857.1,96,891,160,926,170.7C960,181,994,139,1029,138.7C1062.9,139,1097,181,1131,197.3C1165.7,213,1200,203,1234,192C1268.6,181,1303,171,1337,170.7C1371.4,171,1406,181,1423,186.7L1440,192L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path>
     </svg>
-    <section id="updrade" class="main-grey" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">
+    <section id="updrade" class="main-grey">
         <div class="container py-2">
             <div class="row">
                 <div class="col-lg-6 px-5 py-5">
@@ -84,6 +84,58 @@
                     <h2>dapatkan penyakuan internasional</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae sed error. Minima, aperiam. Mollitia error vero iure, fugiat reiciendis ad tempora quod neque eos, reprehenderit nihil repudiandae, in laudantium?</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum minus harum impedit illum omnis molestiae veniam et quasi corrupti. Eaque saepe repellat explicabo nisi itaque quisquam, dignissimos necessitatibus suscipit molestiae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="main-grey2">
+        <div class="container text-center py-5">
+            <h2 class="main-judul">PROJEK KAMI BUAT</h2>
+            <P>berikut ini adalah contoh dari projek yang telah kami buat</P>
+            <div class="row text-start">
+                <div class="col-md-4 mb-3">
+                    <div class="card borde-0 shadow-sm">
+                        <img src="img/projek 1.png" class="card-img-top" alt="fikri projek">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="index.php">kejarja kelompok tampa ribet/judul</a>
+                            </h5>
+                            <p class="card-text">kerja kelompok tanpa ribet mengunkana jasa kami.</p>
+                        </div>
+                        <div class="card-body main-blog-info">
+                            <a href="https://www.instagram.com/fikri_firman13/"><img src="assets/img/person1.png" /></a>
+                            <a href="https://www.instagram.com/fikri_firman13/" class="main-blog-author">fikri firmansyah</a><br />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card borde-0 shadow-sm">
+                        <img src="assets/img/blog2.jpg" class="card-img-top" alt="pejelasan dari thumtel">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="blog-deteil.html">mengerjakan tugas tampa ribet/judul</a>
+                            </h5>
+                            <p class="card-text">mengerjakan tugas ribet mengunkana jasa kami.</p>
+                        </div>
+                        <div class="card-body main-blog-info">
+                            <a href=""><img src="assets/img/person2.png" /></a>
+                            <a href="" class="main-blog-author">nevice</a><br />
+                            <span>agu 15, 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card borde-0 shadow-sm">
+                        <img src="assets/img/blog3.jpg" class="card-img-top" alt="pejelasan dari thumtel">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="blog-deteil.html">belajar online tampa ribet/judul</a>
+                            </h5>
+                            <p class="card-text">belajar online tanpa ribet mengunkana jasa kami.</p>
+                        </div>
+                        <div class="card-body main-blog-info">
+                            <a href=""><img src="assets/img/person3.png" /></a>
+                            <a href="" class="main-blog-author">nevice</a><br />
+                            <span>agu 15, 2020</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
